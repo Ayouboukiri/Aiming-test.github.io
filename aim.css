@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(25, 23, 23, 0.895);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    height: 100%;
+    left: 25px;
+    top: -30px;
+}
+#target{
+    background-image: url("images/download.png");
+    background-size: 100%;
+    border: solid 2px;
+    width: 30px;
+    height: 30px;
+    left: 600;
+    top:350;
+    position: absolute;
+    border-radius: 50%;
+    display:none;
+    
+}
+#counter{
+    background-color: rgb(64, 177, 211);
+    width: 140px;
+   margin: 30px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+#timer{
+    position: relative;
+     background-color: rgb(64, 177, 211);
+    width: 140px;
+   top: -60px; 
+   left: 200px;
+   border-radius: 50%;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;}
+#start{
+    width: 90px;
+    font-size: 20px;
+    position: absolute;
+    top: -2px; ;
+    left: 360px;
+    border: rgba(255, 255, 255, 0.639) solid 4px;
+    border-radius: 6px;
+    background-color: rgba(13, 134, 74, 0.79);
+    color: aliceblue;
+}
+#restart{
+    width: 90px;
+    font-size: 20px;
+    position: absolute;
+    top: -2px; ;
+    left: 470px;
+    border: rgba(255, 255, 255, 0.639) solid 4px;
+    border-radius: 6px;
+    background-color: rgba(140, 147, 41, 0.79);
+    color: aliceblue;
+}
